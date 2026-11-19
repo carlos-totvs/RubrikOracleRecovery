@@ -12,19 +12,21 @@ Este projeto é uma ferramenta desenvolvida em .NET (C#) para realizar a coleta 
 
 Por questões de segurança, as credenciais de acesso à Rubrik não são armazenadas em texto plano. O arquivo de configuração deve conter um JSON codificado em **Base64**.
 
-1. Crie um arquivo chamado `config.json` dentro da pasta `Configuration/`.
+1. Crie um arquivo chamado `config.txt` dentro da pasta `Configuration/`.
 2. O formato original das suas credenciais (em JSON) deve ser o seguinte:
    ```json
    {
-     "ClientId": "seu-client-id",
-     "ClientSecret": "seu-secret",
-     "Url": "https://sua-url.my.rubrik.com"
-   }
+	"client_id": "asdasdasdadad",
+	"client_secret": "31312312312312312313qeaeqweqweqweqweqweqe",
+	"name": "Client_Query",
+	"access_token_uri": "https://minha-url/api/client_token",
+	"graphql_url": "https://minha-url/api/graphql"
+}
 
 ```
 
 3. Converta esse JSON completo para uma string **Base64**.
-4. Cole **apenas a string Base64** dentro do seu arquivo `Configuration/config.json`. Exemplo do conteúdo final do arquivo:
+4. Cole **apenas a string Base64** dentro do seu arquivo `Configuration/config.txt`. Exemplo do conteúdo final do arquivo:
 ```text
 ewogICJDbGllbnRJZCI6ICJzZXUtY2xpZW50LWlkIiwKICAiQ2xpZW50U2VjcmV0IjogInNldS1zZWNyZXQiLAogICJVcmwiOiAiaHR0cHM6Ly9zdWEtdXJsLm15LnJ1YnJpay5jb20iCn0=
 
