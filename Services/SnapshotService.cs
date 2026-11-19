@@ -27,7 +27,7 @@ namespace RubrikOracleRecovery.Services
             {
                 // TODO: Substituir por pela chamada GraphQL do queries.py
                 
-                // Simulando o retorno da API da Rubrik baseado na estrutura do PDF:
+                // Simulando o retorno da API da Rubrik:
                 results.Add(new OracleRecoveryPoint 
                 { 
                     HostOrRacName = $"Oracle Host {host}", 
