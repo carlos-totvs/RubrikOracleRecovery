@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="34.0.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="11.0.0" />
     <PackageReference Include="System.Text.Json" Version="11.0.0" />
   </ItemGroup>
 
