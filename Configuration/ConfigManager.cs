@@ -19,10 +19,7 @@ namespace RubrikOracleRecovery.Configuration
             if (!File.Exists(path))
                 throw new FileNotFoundException($"Arquivo de configuração não encontrado em {path}");
 
-            // Lê o conteúdo Base64 do arquivo
             string base64Content = File.ReadAllText(path).Trim();
-            
-            // Decodifica o Base64 para a string JSON original
             byte[] jsonBytes = Convert.FromBase64String(base64Content);
             string jsonString = Encoding.UTF8.GetString(jsonBytes);
 

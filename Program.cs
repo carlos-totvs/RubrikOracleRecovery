@@ -14,7 +14,6 @@ namespace RubrikOracleRecovery
         {
             string inputFile = "hosts.csv";
 
-            // Parse dos argumentos de linha de comando (ex: --input hosts.csv)
             for (int i = 0; i < args.Length; i++)
             {
                 if (args[i] == "--input" && i + 1 < args.Length)
