@@ -21,7 +21,7 @@ Por questões de segurança, as credenciais de acesso à Rubrik não são armaze
 	"name": "Client_Query",
 	"access_token_uri": "https://minha-url/api/client_token",
 	"graphql_url": "https://minha-url/api/graphql"
-}
+	}
 
 ```
 
