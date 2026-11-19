@@ -26,7 +26,7 @@ namespace RubrikOracleRecovery.Configuration
 
     public static class ConfigManager
     {
-        public static RscCredentials LoadConfig(string path = "Configuration/config.json")
+        public static RscCredentials LoadConfig(string path = "Configuration/config.txt")
         {
             if (!File.Exists(path))
                 throw new FileNotFoundException($"Arquivo de configuração não encontrado em {path}");
