@@ -1,0 +1,34 @@
+# Segredos, chaves e variáveis de ambiente (CRÍTICO)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+
+# Pastas de editores / IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.iml
+
+# Ignorar pastas de build do .NET
+bin/
+obj/
+
+# Ignorar relatórios gerados (mas manter o hosts.csv de input)
+reports/*.csv
+!reports/input/hosts.csv
