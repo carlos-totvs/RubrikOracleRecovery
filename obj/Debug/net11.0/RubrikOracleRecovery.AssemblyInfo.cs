@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RubrikOracleRecovery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0516d2e403fa0b6cd6e657fcf39448e145edcea")]
 [assembly: System.Reflection.AssemblyProductAttribute("RubrikOracleRecovery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RubrikOracleRecovery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
