@@ -16,10 +16,10 @@ namespace RubrikOracleRecovery.Services
         private readonly RscCredentials _credentials;
         private string _accessToken;
 
-        public SnapshotService(RscCredentials credentials)
+        public SnapshotService(RscCredentials credentials, HttpClient? httpClient = null)
         {
             _credentials = credentials;
-            _httpClient = new HttpClient();
+            _httpClient = httpClient ?? new HttpClient();
         }
 
         private async Task AuthenticateAsync()
